@@ -1,0 +1,586 @@
+/*
+Theme Name: wp-bootstrap
+Theme URI: http://320press.com/wpbs
+Description: A simple responsive theme based on the Bootstrap framework. Includes multiple page templates, two different sidebars and a theme options panel.
+Version: 3.0
+Author: 320press
+Author URI: http://320press.com
+Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
+License: GNU General Public License v2.0 & Apache License 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
+*/
+
+/* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
+
+/*  
+ * Work based on STANLEY - Free Bootstrap 3 Theme by Carlos Alvarez http://alvarez.is licensed under 
+ * the http://creativecommons.org/licenses/by/3.0/
+ * 
+ * Extensively altered and added to by Andrew Duckworth for Nordenfelt and the Working Together team.
+ *
+ */
+ 
+ /* ENSURE USING CORRECT HTTP/S FOR ENVIRONMENT! */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  	background-color: #ffffff;
+  	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+	padding-top: 0 !important;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+h1 {
+	font-size: 35px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #09afad;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* Additional headroom classes */
+
+.ieroom {
+    display: block;
+    height: 43px;
+    border: 0;
+    border-top: 0px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.ie8room {
+    display: block;
+    height: 20px;
+    border: 0;
+    border-top: 0px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.cathedral {
+    height: 142px;
+    border: 0;
+    border-top: 0px;
+    margin: 1em 0;
+    padding: 0px;
+    padding-bottom: 0;
+}
+
+.feature {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 0px;
+    margin: 1em 0;
+    padding: 1px;
+}
+
+
+.navbar {
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+.navbar-inverse {
+
+	padding-top: 65px;
+}
+
+.navbar-inverse {
+	background-color: #09afad;
+	border-color: #16a085;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #222222;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: transparent;
+}
+
+.progress-bar-theme {
+  background-color: #09afad;
+}
+
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.pt {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/* +++++ WRAP SECTIONS +++++ */
+
+#brandwrap {
+	padding-top: 10px;
+	padding-bottom: 0;
+
+}
+
+
+#footer {
+	background-color: #07918F;
+	padding-top: 50px;
+	padding-bottom: 50px;
+  color: white;
+}
+
+#footer p {
+	color: white;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+
+/* +++++ Color Wraps / Blog Page +++++ */
+
+#grey {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #f2f2f2;
+}
+
+#white {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #ffffff;
+}
+
+
+
+/* Blog Date*/
+bd {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #d2d2d2;
+	font-weight: 700;
+}
+
+/* Blog Author*/
+ba {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+/* Blog Quote */
+.bq {
+	font-size: 22px;
+	padding-top: 30px;
+}
+
+/* Blog Tags */
+bt {
+	font-size: 12px;
+}
+
+/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
+/* Effects also are controled by hover.zoom.js */
+.zoom { 
+    display:block; 
+    position:relative; 
+    overflow:hidden; 
+    background:transparent url(../img/loader.gif) no-repeat center;
+}
+
+
+    .zoomOverlay {
+        position:absolute;
+        top:0; left:0;
+        bottom:0; right:0;
+        display:none;
+        background-image:url(../img/zoom.png);
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+
+.zoom2 {
+	opacity: 1;
+}
+
+.zoom2:hover {
+	opacity: 0.5;
+}
+
+/* glyphicon Configuration */
+
+.glyphicon {
+	font-size: 40px;
+	color: #09afad;
+}
+
+#link {
+  color: white;
+}
+
+#lightbreaker {
+  background-color: #FFFFFF;
+}
+
+.featurette-divider {
+  margin: 20px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+.brandhead {
+  padding: 40px;
+
+  /* background-image:url('/img/1.jpg'); */
+  background-color: #f2f2f2;
+  background-size:cover;
+}
+
+.lighttext {
+  color: #fff;
+}
+
+#whiteheading {
+  color: #ffffff;
+}
+
+.thumbnail {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.endblock {
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+/* TRUST ID BANDSTRIPES */
+
+#sthbrand {
+  background-color: #8bcbbd;
+  background-size: cover;
+}
+
+#midyorkbrand {
+  background-color: #d15094;
+  background-size: cover;
+}
+
+#barnsleybrand {
+  background-color: #96c147;
+  background-size: cover;
+}
+
+#chesterfieldbrand {
+  background-color: #008884;
+  background-size: cover;
+}
+
+#doncasterbrand {
+  background-color: #03386f;
+  background-size: cover;
+}
+
+#rotherhambrand {
+  background-color: #7e549a;
+  background-size: cover;
+}
+
+#sheffchildbrand {
+  background-color: #ee7f00;
+  background-size: cover;
+}
+
+#workstreambrand {
+  background-color: #e7e3e1;
+  background-size: cover;
+}
+
+#newsbrand {
+  background-color: #e7e3e1;
+  padding: 5px;
+}
+
+.blockpadding {
+  padding: 10px;
+}
+
+.newsblock {
+  margin: 8px;
+}
+
+/* BUTTONS */
+
+/* DARK BLUE FOR DONNY HOSPITAL */
+
+.btn-doncaster {
+  color: #fff;
+  background-color: #03386f;
+  border-color: #163453;
+}
+.btn-doncaster:hover,
+.btn-doncaster:focus,
+.btn-doncaster:active,
+.btn-doncaster.active,
+.open .dropdown-toggle.btn-doncaster {
+  color: #fff;
+  background-color: #336090;
+  border-color: #81A3C7;
+}
+.btn-doncaster:active,
+.btn-doncaster.active,
+.open .dropdown-toggle.btn-doncaster {
+  background-image: none;
+}
+.btn-doncaster.disabled,
+.btn-doncaster[disabled],
+fieldset[disabled] .btn-doncaster,
+.btn-doncaster.disabled:hover,
+.btn-doncaster[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-doncaster.disabled:focus,
+.btn-doncaster[disabled]:focus,
+fieldset[disabled] .btn-doncaster:focus,
+.btn-doncaster.disabled:active,
+.btn-doncaster[disabled]:active,
+fieldset[disabled] .btn-doncaster:active,
+.btn-doncaster.disabled.active,
+.btn-doncaster[disabled].active,
+fieldset[disabled] .btn-doncaster.active {
+  background-color: #03386f;
+  border-color: #163453;
+}
+.btn-doncaster .badge {
+  color: #03386f;
+  background-color: #fff;
+}
+
+/* ORANGE FOR SHEFF CHILDREN'S HOSPITAL*/
+
+.btn-shfchild {
+  color: #fff;
+  background-color: #ee7f00;
+  border-color: #d58512;
+}
+.btn-shfchild:hover,
+.btn-shfchild:focus,
+.btn-shfchild:active,
+.btn-shfchild.active,
+.open .dropdown-toggle.btn-shfchild {
+  color: #fff;
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+.btn-shfchild:active,
+.btn-shfchild.active,
+.open .dropdown-toggle.btn-shfchild {
+  background-image: none;
+}
+.btn-shfchild.disabled,
+.btn-shfchild[disabled],
+fieldset[disabled] .btn-shfchild,
+.btn-shfchild.disabled:hover,
+.btn-shfchild[disabled]:hover,
+fieldset[disabled] .btn-shfchild:hover,
+.btn-shfchild.disabled:focus,
+.btn-shfchild[disabled]:focus,
+fieldset[disabled] .btn-shfchild:focus,
+.btn-shfchild.disabled:active,
+.btn-shfchild[disabled]:active,
+fieldset[disabled] .btn-shfchild:active,
+.btn-shfchild.disabled.active,
+.btn-shfchild[disabled].active,
+fieldset[disabled] .btn-shfchild.active {
+  background-color: #ee7f00;
+  border-color: #d58512;
+}
+.btn-shfchild .badge {
+  color: #ee7f00;
+  background-color: #fff;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+color: #000000;
+}
+
+#lightbreaker {
+  background-color: #FFFFFF;
+}
+
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+
+/* WORDPRESS OVERRIDES */
+
+#content {
+  padding-top: 15px;
+}
+
+.lead {
+  line-height: 28px;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+#sidebar1 {
+  padding-top: 45px;
+}
+
+.widget li {
+  list-style-type: none;
+}
+
+.widget ul {
+  padding-left: 0;
+}
+
+#footer {
+	background-color: #07918F;
+	padding-top: 50px;
+	padding-bottom: 50px;
+  color: white;
+
+}
+
+.brand-logo {
+  max-width:160px; 
+  margin-top: -68px;
+}
+
+#benefits {
+  background-color: #f2f2f2; /* #f2f2f2 */
+  background-size: cover;
+  padding: 15px 10px 10px 10px;
+}
+
+.benefits-link {
+  color: #555 !important;
+  
+}
+
+#trust-logos {
+  background-color: #EDEDED;
+  background-size: cover;
+}
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+
