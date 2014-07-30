@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+
+<div class="container">
 			
 			<div id="content" class="clearfix row">
 			
@@ -94,5 +96,8 @@
 				<?php get_sidebar(); // sidebar 1 ?>
     
 			</div> <!-- end #content -->
+  
+  
+</div> <!-- end #container -->
 
 <?php get_footer(); ?>

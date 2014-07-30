@@ -68,12 +68,5 @@
 		
 		</header> <!-- end header -->
 		
-      <div class="row" id="trust-logos">
-    <div class="container centered">
-      <div class="backblock">
-        <h3 class="">Place greyed out logos here</h3>
 
-      </div>
-    </div>
-  </div>
 		

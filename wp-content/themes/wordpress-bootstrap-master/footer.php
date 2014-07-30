@@ -1,5 +1,7 @@
 
 
+	
+
   <div class="row" id="sthbrand">
     <div class="container centered">
       <div class="backblock">
@@ -45,13 +47,40 @@
 					<p class="attribution">&copy; <?php bloginfo('name'); ?></p>
 				
 				</div> <!-- end #inner-footer -->
+        
+        
+        
+        
+        
 				
 			</footer> <!-- end footer -->
+          
+          
+          
+          
+          
+          
                </div>
 		
 		
 				</div>
 
+
+      <div class="row" id="trust-logos">
+   		 <div class="">
+      		<div class="backblock">
+            <div class="col-md-12 centered">
+                      		<img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
+            <img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
+            <img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
+            <img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
+                                    		<img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
+            <img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
+            <img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
+            </div>
+        </div>
+      </div>
+    </div>
 
 		<!--[if lt IE 7 ]>
   			<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>

@@ -564,6 +564,15 @@ color: #000000;
   background-size: cover;
 }
 
+.footer-logo {
+  max-height: 35px;
+  padding: 3px;
+}
+
+#main article {
+  padding-left: 45px !important;
+}
+
 
 
 
