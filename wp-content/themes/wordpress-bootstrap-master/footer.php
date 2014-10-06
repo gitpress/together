@@ -1,8 +1,8 @@
-
+</div> <!-- end #container -->
 
 	
 
-  <div class="row" id="sthbrand">
+ <!-- not needed now <div class="row sthbrand" id="">
     <div class="container centered">
       <div class="backblock">
         <h1 class="lighttext">Get involved</h1>
@@ -11,7 +11,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
 
@@ -27,7 +27,7 @@
 
 			<footer role="contentinfo">
 			
-				<div id="inner-footer" class="clearfix">
+				<div id="inner-footer" class="clearfix text-centered">
 
 		          <div id="widget-footer" class="clearfix row">
 		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
@@ -35,6 +35,8 @@
 		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer2') ) : ?>
 		            <?php endif; ?>
 		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer3') ) : ?>
+		            <?php endif; ?>
+                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer4') ) : ?>
 		            <?php endif; ?>
 		          </div>
 					
@@ -65,22 +67,6 @@
 		
 				</div>
 
-
-      <div class="row" id="trust-logos">
-   		 <div class="">
-      		<div class="backblock">
-            <div class="col-md-12 centered">
-                      		<img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
-            <img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
-            <img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
-            <img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
-                                    		<img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
-            <img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
-            <img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/logotrans.png" class="footer-logo">
-            </div>
-        </div>
-      </div>
-    </div>
 
 		<!--[if lt IE 7 ]>
   			<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>

@@ -5,8 +5,9 @@ Template Name: Homepage
 ?>
 
 <?php get_header(); ?>
+</div>
 
- <div class="centered">
+ <div class="row centered">
   <div class="brandhead">
     <h1 class="">Working Together</h1>
     <p class="lead">A partnership to deliver high quality, efficient patient care for South Yorkshire, Mid Yorkshire and North Derbyshire</p>
@@ -15,11 +16,11 @@ Template Name: Homepage
   </div>
 </div>
 
-<div class="container">
+
 			
 			<div id="content" class="clearfix row">
 			
-				<div id="main" class="col-sm-12 clearfix" role="main">
+				<div id="main" class="col-sm-10 col-sm-offset-2 clearfix" role="main">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
@@ -84,23 +85,23 @@ Template Name: Homepage
     
 			</div> <!-- end #content -->
 
-</div> <!-- end #container -->
+
 
 
   <div class="row" id="benefits">
     <div class="container centered">
       <div class="backblock">
-        		<div class="col-md-4">
+        		<div class="col-md-4 col-sm-4">
 			<a href="#" class="benefits-link"><i class="fa fa-cogs fa-5x"></i>
       <p>It came to pass, that in the ambergris affair Stubb's after-oarsman chanced so to sprain his hand, as for a time to become quite maimed; and, temporarily, Pip was put into his place.</p>
 		</a>
         </div>
 
-		<div class="col-md-4">
+		<div class="col-md-4 col-sm-4">
 			<a href="#" class="benefits-link"><i class="fa fa-random fa-5x"></i><p>It came to pass, that in the ambergris affair Stubb's after-oarsman chanced so to sprain his hand, as for a time to become quite maimed; and, temporarily, Pip was put into his place. </p></a>
 		</div>
 
-		<div class="col-md-4">
+		<div class="col-md-4 col-sm-4">
 			<a href="#" class="benefits-link"><i class="fa fa-check-square-o fa-5x"></i><p>It came to pass, that in the ambergris affair Stubb's after-oarsman chanced so to sprain his hand, as for a time to become quite maimed; and, temporarily, Pip was put into his place. </p></a>
 		</div>
       </div>
