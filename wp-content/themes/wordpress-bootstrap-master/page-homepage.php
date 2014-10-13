@@ -5,7 +5,7 @@ Template Name: Homepage
 ?>
 
 <?php get_header(); ?>
-</div>
+</div><!-- kills container -->
 
  <div class="row centered">
   <div class="brandhead">
@@ -13,6 +13,17 @@ Template Name: Homepage
     <p class="lead">A partnership to deliver high quality, efficient patient care for South Yorkshire, Mid Yorkshire and North Derbyshire</p>
     <p><a class="btn btn-doncaster btn-lg" role="button" href="/about">Learn more &raquo;</a>
     </p>
+  </div>
+</div>
+
+<div class="container centered" id="">
+  <div class="row">
+		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('frontpage1') ) : ?>
+		            <?php endif; ?>
+		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('frontpage2') ) : ?>
+		            <?php endif; ?>
+		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('frontpage3') ) : ?>
+		            <?php endif; ?>
   </div>
 </div>
 

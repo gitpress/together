@@ -115,6 +115,33 @@ function wp_bootstrap_register_sidebars() {
       'before_title' => '<h4 class="widgettitle">',
       'after_title' => '</h4>',
     ));
+  
+      register_sidebar(array(
+      'id' => 'frontpage1',
+      'name' => 'Front Page Unit 1',
+      'before_widget' => '<div id="%1$s" class="widget col-md-4 col-sm-4 %2$s">',
+      'after_widget' => '</div>',
+      'before_title' => '<h4 class="front-page-title">',
+      'after_title' => '</h4>',
+    ));
+  
+      register_sidebar(array(
+      'id' => 'frontpage2',
+      'name' => 'Front Page Unit 2',
+      'before_widget' => '<div id="%1$s" class="widget col-md-4 col-sm-4 %2$s">',
+      'after_widget' => '</div>',
+      'before_title' => '<h4 class="front-page-title">',
+      'after_title' => '</h4>',
+    ));
+  
+      register_sidebar(array(
+      'id' => 'frontpage3',
+      'name' => 'Front Page Unit 3',
+      'before_widget' => '<div id="%1$s" class="widget col-md-4 col-sm-4 %2$s">',
+      'after_widget' => '</div>',
+      'before_title' => '<h4 class="front-page-title">',
+      'after_title' => '</h4>',
+    ));
     
     
     /* 
