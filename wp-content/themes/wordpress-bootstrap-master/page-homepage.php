@@ -102,19 +102,15 @@ Template Name: Homepage
   <div class="row" id="benefits">
     <div class="container centered">
       <div class="backblock">
-        		<div class="col-md-4 col-sm-4">
-			<a href="#" class="benefits-link"><i class="fa fa-cogs fa-5x"></i>
-      <p>It came to pass, that in the ambergris affair Stubb's after-oarsman chanced so to sprain his hand, as for a time to become quite maimed; and, temporarily, Pip was put into his place.</p>
-		</a>
-        </div>
+		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('benefits1') ) : ?>
+		            <?php endif; ?>
+		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('benefits2') ) : ?>
+		            <?php endif; ?>
+		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('benefits3') ) : ?>
+		            <?php endif; ?>
+                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('benefits4') ) : ?>
+		            <?php endif; ?>
 
-		<div class="col-md-4 col-sm-4">
-			<a href="#" class="benefits-link"><i class="fa fa-random fa-5x"></i><p>It came to pass, that in the ambergris affair Stubb's after-oarsman chanced so to sprain his hand, as for a time to become quite maimed; and, temporarily, Pip was put into his place. </p></a>
-		</div>
-
-		<div class="col-md-4 col-sm-4">
-			<a href="#" class="benefits-link"><i class="fa fa-check-square-o fa-5x"></i><p>It came to pass, that in the ambergris affair Stubb's after-oarsman chanced so to sprain his hand, as for a time to become quite maimed; and, temporarily, Pip was put into his place. </p></a>
-		</div>
       </div>
     </div>
   </div>
