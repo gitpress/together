@@ -27,35 +27,36 @@ Template Name: Homepage
   </div>
 </div>
 
-<div class="container-fluid">
+<div id="twitter-section" class="grey-section">
+<div class="container">
   <div class="row">
-    <div class="col-md-12">
-      <h2>Participating Trusts</h2>
-      <hr>
+    <div class="col-md-8 col-md-offset-2">
+      <h1 class="section-header">Participating Trusts</h1>
+      <hr class="brand-hr">
     </div>
   </div>
   <div class="row">
     <div class="col-md-6">
-      <div class="sthbrand">
-        <h4 class="lighttext"><a href="#" class="lighttext">Sheffield Teaching Hospitals NHS Foundation Trust</a></h4>
-      </div>
-      <div class="doncasterbrand">
-        <h4 class="lighttext"><a href="#" class="lighttext">Sheffield Teaching Hospitals NHS Foundation Trust</a></h4>
+      <div class="barnsleybrand">
+        <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">Barnsley Hospital NHS Foundation Trust</a></h4>
       </div>
       <div class="chesterfieldbrand">
-        <h4 class="lighttext"><a href="#" class="lighttext">Sheffield Teaching Hospitals NHS Foundation Trust</a></h4>
+        <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">Chesterfield Royal Hospital NHS Foundation Trust</a></h4>
       </div>
-      <div class="rotherhambrand">
-        <h4 class="lighttext"><a href="#" class="lighttext">Sheffield Teaching Hospitals NHS Foundation Trust</a></h4>
-      </div>
-      <div class="sheffchildbrand">
-        <h4 class="lighttext"><a href="#" class="lighttext">Sheffield Teaching Hospitals NHS Foundation Trust</a></h4>
+      <div class="doncasterbrand">
+        <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">Doncaster and Bassetlaw Hospitals NHS Foundation Trust</a></h4>
       </div>
       <div class="midyorkbrand">
-        <h4 class="lighttext"><a href="#" class="lighttext">Sheffield Teaching Hospitals NHS Foundation Trust</a></h4>
+        <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">The Mid Yorkshire Hospitals NHS Trust</a></h4>
       </div>
-      <div class="barnsleybrand">
-        <h4 class="lighttext"><a href="#" class="lighttext">Sheffield Teaching Hospitals NHS Foundation Trust</a></h4>
+      <div class="rotherhambrand">
+        <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">The Rotherham NHS Foundation Trust</a></h4>
+      </div>
+      <div class="sheffchildbrand">
+        <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">Sheffield Children’s NHS Foundation Trust</a></h4>
+      </div>
+      <div class="sthbrand">
+        <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">Sheffield Teaching Hospitals NHS Foundation Trust</a></h4>
       </div>      
     </div>
     <div class="col-md-6" id="working-together-twitter-widget">
@@ -63,6 +64,7 @@ Template Name: Homepage
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </div>
   </div>
+</div>
 </div>
 
 
