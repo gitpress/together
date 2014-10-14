@@ -16,17 +16,6 @@ Template Name: Homepage
   </div>
 </div>
 
-<div class="container centered" id="">
-  <div class="row">
-		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('frontpage1') ) : ?>
-		            <?php endif; ?>
-		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('frontpage2') ) : ?>
-		            <?php endif; ?>
-		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('frontpage3') ) : ?>
-		            <?php endif; ?>
-  </div>
-</div>
-
 <div id="programme-section" class="grey-section">
   <div class="container">
     <div class="row">
