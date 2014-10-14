@@ -137,7 +137,7 @@ ensuring that services are fit for the future, meeting increased patient expecta
 and further improving patient care, whilst operating within a challenging
 financial environment.
 </p>
-                    <a href="http://inch-reform.codio.io:3000/wordpress/about/commissioner-working-together-group/" class="btn btn-lg btn-link btn-working">Find out more</a>
+                    <a href="http://inch-reform.codio.io:3000/wordpress/about/commissioner-working-together-group/" class="btn btn-lg btn-link btn-working">Further information</a>
           </div>
         </div>
       </div>
@@ -145,7 +145,46 @@ financial environment.
   </div>
 </div>
 
-
+<div id="news-section" class="grey-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h2 class="section-header">Recent successes and programme news</h2>
+        <hr class="brand-hr">
+      </div>
+    </div> 
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Working Together delivers £400k savings on gloves</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/commis.png" class="img-responsive">
+          </div>
+          <div class="col-md-8">
+                    <p class="lead">By combining forces on the purchase of examination gloves and agreeing to standardise the product rather than having numerous different brands at differing prices.
+</p>
+                    <a href="http://inch-reform.codio.io:3000/wordpress/working-together-delivers-400k-savings-on-gloves/" class="btn btn-lg btn-link btn-working">Find out more</a>
+          </div>
+        </div>
+      </div>
+      
+        <div class="col-md-6">
+        <h2>Patients benefit from sharing of test results</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/commis.png" class="img-responsive">
+          </div>
+          <div class="col-md-8">
+                    <p class="lead">Vital patient reports and tests will be able to be shared quickly and securely thanks to a unique information sharing solution.
+</p>
+            <br>
+                    <a href="http://inch-reform.codio.io:3000/wordpress/patients-benefit-from-sharing-of-test-results/" class="btn btn-lg btn-link btn-working">Find out more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
