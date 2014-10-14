@@ -405,7 +405,9 @@ bt {
   margin: 8px;
 }
 
-/* BUTTONS */
+/* *********************************************
+ *  BUTTONS!
+ * *********************************** BUTTONS */
 
 /* DARK BLUE FOR DONNY HOSPITAL */
 
@@ -494,6 +496,25 @@ fieldset[disabled] .btn-shfchild.active {
   color: #ee7f00;
   background-color: #fff;
 }
+
+.btn-working {
+  margin-top: auto;
+  border: 5px solid #09afad;
+  color: #09afad;
+  padding: 10px 65px;
+  border-radius: 5px;
+}
+
+.btn-working:hover {
+  border: 5px solid #96c147;
+  color: #09afad;
+}
+
+
+
+
+
+
 
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
 color: #000000;

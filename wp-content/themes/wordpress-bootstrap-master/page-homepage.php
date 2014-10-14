@@ -27,11 +27,41 @@ Template Name: Homepage
   </div>
 </div>
 
-<div id="twitter-section" class="grey-section">
+<div id="programme-section" class="grey-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h2 class="section-header">The Working Together programme</h2>
+        <hr class="brand-hr">
+      </div>
+    </div> 
+    <div class="row">
+      <div class="col-md-12">
+        <h2>A partnership involving seven hospital Trusts in South Yorkshire, Mid Yorkshire and North Derbyshire</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/Rotherham4.jpg" class="img-responsive">
+          </div>
+          <div class="col-md-8">
+                    <p class="lead">Collaborating on a number of common issues, this partnership aims to strengthen 
+                        each organisation's ability to deliver safe, sustainable and local services. 
+                        Meet commissioner intentions to improve the health and wellbeing of people and
+                        make collective efficiencies where the potential exists</p>
+                    <a href="http://inch-reform.codio.io:3000/wordpress/about/" class="btn btn-lg btn-link btn-working">Find out more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="twitter-section" class="white-section">
 <div class="container">
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
-      <h1 class="section-header">Participating Trusts</h1>
+      <h2 class="section-header">Participating Trusts</h2>
       <hr class="brand-hr">
     </div>
   </div>
@@ -67,92 +97,70 @@ Template Name: Homepage
 </div>
 </div>
 
-
-			
-			<div id="content" class="clearfix row">
-			
-				<div id="main" class="col-sm-10 col-sm-offset-2 clearfix" role="main">
-
-					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-					
-					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
-					
-						<header>
-
-							<?php 
-								$post_thumbnail_id = get_post_thumbnail_id();
-								$featured_src = wp_get_attachment_image_src( $post_thumbnail_id, 'wpbs-featured-home' );
-							?>
-
-
-						
-						</header>
-						
-						<section class="row post_content">
-						
-							<div class="col-sm-12">
-						
-								<?php the_content(); ?>
-								
-							</div>
-							
-	
-													
-						</section> <!-- end article header -->
-						
-						<footer>
-			
-							<p class="clearfix"><?php the_tags('<span class="tags">' . __("Tags","wpbootstrap") . ': ', ', ', '</span>'); ?></p>
-							
-						</footer> <!-- end article footer -->
-					
-					</article> <!-- end article -->
-					
-					<?php 
-						// No comments on homepage
-						//comments_template();
-					?>
-					
-					<?php endwhile; ?>	
-					
-					<?php else : ?>
-					
-					<article id="post-not-found">
-					    <header>
-					    	<h1><?php _e("Not Found", "wpbootstrap"); ?></h1>
-					    </header>
-					    <section class="post_content">
-					    	<p><?php _e("Sorry, but the requested resource was not found on this site.", "wpbootstrap"); ?></p>
-					    </section>
-					    <footer>
-					    </footer>
-					</article>
-					
-					<?php endif; ?>
-			
-				</div> <!-- end #main -->
-    
-				<?php //get_sidebar(); // sidebar 1 ?>
-    
-			</div> <!-- end #content -->
-
-
-
-
-  <div class="row" id="benefits">
-    <div class="container centered">
-      <div class="backblock">
-		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('benefits1') ) : ?>
-		            <?php endif; ?>
-		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('benefits2') ) : ?>
-		            <?php endif; ?>
-		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('benefits3') ) : ?>
-		            <?php endif; ?>
-                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('benefits4') ) : ?>
-		            <?php endif; ?>
-
+<div id="workstream-section" class="grey-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h2 class="section-header">Our Workstream structure</h2>
+        <hr class="brand-hr">
+      </div>
+    </div> 
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Initially the Working Together programme has been constructed around four interdependent themes</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/Doncaster4.jpg" class="img-responsive">
+          </div>
+          <div class="col-md-8">
+                    <p class="lead">Sharing and Adopting Good Practice, Developing a Sustainable Service Configuration, Assuring Sustainable Service Quality and creating a cross Trust care environment through the deployment of Informatics.
+                      The overall aim is to improve and sustain the quality of our clinical services whilst also providing them more efficiently and effectively and to do so together.</p>
+                    <a href="http://inch-reform.codio.io:3000/wordpress/workstreams/" class="btn btn-lg btn-link btn-working">Find out more</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+</div>
+
+<div id="commissioner-section" class="white-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h2 class="section-header">Healthcare Commissioners programme</h2>
+        <hr class="brand-hr">
+      </div>
+    </div> 
+    <div class="row">
+      <div class="col-md-12">
+        <h2>The Working Together partnership is working jointly with eight Clinical Commissioning Groups on a number of common key areas</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/commis.png" class="img-responsive">
+          </div>
+          <div class="col-md-8">
+                    <p class="lead">The eight Clinical Commissioning Groups (CCGs) in South Yorkshire and North
+Derbyshire, along with NHS England (South Yorkshire and Bassetlaw) and Mid
+Yorkshire CCGs have formed a similar partnership called 'Working Together'
+to develop a strategy to take action on sustainably of local healthcare, meeting
+the needs of an ageing population, maximising productivity across all services,
+ensuring that services are fit for the future, meeting increased patient expectations
+and further improving patient care, whilst operating within a challenging
+financial environment.
+</p>
+                    <a href="http://inch-reform.codio.io:3000/wordpress/about/commissioner-working-together-group/" class="btn btn-lg btn-link btn-working">Find out more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
 
 <?php get_footer(); ?>
