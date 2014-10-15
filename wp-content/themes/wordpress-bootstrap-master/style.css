@@ -318,8 +318,12 @@ bt {
   letter-spacing: -1px;
 }
 
+.brandhead{
+  background-color: #efefef;
+  padding: 40px;
+}
 
-.brandhead {
+.image-cover {
   padding: 40px;
   background-color: #fff;
   background-image: url('http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/banner3.png');

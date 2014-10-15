@@ -8,7 +8,7 @@ Template Name: Homepage
 </div><!-- kills container -->
 
  <div class="row centered">
-  <div class="brandhead img-responsive">
+  <div class="brandhead image-cover img-responsive">
     <h1 class="lighttext">Working Together</h1>
     <p class="lead lighttext">A partnership to deliver high quality, efficient patient care</p>
   </div>
