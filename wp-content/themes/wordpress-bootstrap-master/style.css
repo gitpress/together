@@ -531,7 +531,9 @@ color: #000000;
   float: right !important;
 }
 
-/* WORDPRESS OVERRIDES */
+/* **********************************************
+ *  WORDPRESS OVERRIDES 
+* ***********************************************/
 
 #content {
   padding-top: 15px;
@@ -589,6 +591,10 @@ color: #000000;
   max-height: 33px;
   padding: 5px;
 }
+
+/* **********************************************
+ *  NATIVE OVERRIDES 
+* ***********************************************/
 
 select#cat {
   display: block;
@@ -735,7 +741,6 @@ a.lightext {
 
 .grey-section{
   background-color: #f2f2f2;
-  margin: 15px 0;
   padding: 25px inherit;
 }
 
