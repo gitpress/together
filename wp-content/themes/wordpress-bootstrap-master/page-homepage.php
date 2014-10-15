@@ -34,8 +34,9 @@ Template Name: Homepage
                         each organisation's ability to deliver safe, sustainable and local services. 
                         Meet commissioner intentions to improve the health and wellbeing of people and
                         make collective efficiencies where the potential exists</p>
+            <a href="http://inch-reform.codio.io:3000/wordpress/about/" class="btn btn-lg btn-link btn-working">Further information</a>
+          
                     </div>
-          <a href="http://inch-reform.codio.io:3000/wordpress/about/" class="btn btn-lg btn-link btn-working">Further information</a>
           
         </div>
       </div>
@@ -49,7 +50,7 @@ Template Name: Homepage
 <div class="container">
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
-      <h2 class="section-header">Participating Trusts</h2>
+      <h2 class="section-header">Participating NHS Trusts</h2>
       <hr class="brand-hr">
     </div>
   </div>
@@ -77,7 +78,7 @@ Template Name: Homepage
         <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">Sheffield Teaching Hospitals NHS Foundation Trust</a></h4>
       </div>      
     </div>
-    <div class="col-md-6" id="working-together-twitter-widget">
+    <div class="col-md-6 hidden-xs" id="working-together-twitter-widget">
       <a class="twitter-timeline"  href="https://twitter.com/SheffieldHosp/lists/working-together" data-widget-id="521649704682020866">Tweets from https://twitter.com/SheffieldHosp/lists/working-together</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </div>
@@ -161,7 +162,7 @@ financial environment.
           </div>
           <div class="col-md-8">
                     <p class="lead">By combining forces on the purchase of examination gloves and agreeing to standardise the product rather than having numerous different brands at differing prices.</p>
-                    <a href="http://inch-reform.codio.io:3000/wordpress/working-together-delivers-400k-savings-on-gloves/" class="btn btn-lg btn-link btn-working">Find out more</a>
+
           </div>
         </div>
       </div>
@@ -174,12 +175,22 @@ financial environment.
           </div>
           <div class="col-md-8">
                     <p class="lead">Vital patient reports and tests will be able to be shared quickly and securely thanks to a unique information sharing solution.</p>
-            <br>
-                    <a href="http://inch-reform.codio.io:3000/wordpress/patients-benefit-from-sharing-of-test-results/" class="btn btn-lg btn-link btn-working">Find out more</a>
+
           </div>
         </div>
       </div>
+
     </div>
+    
+                    <div class="row">
+            <div class="col-md-6">
+              <a href="http://inch-reform.codio.io:3000/wordpress/working-together-delivers-400k-savings-on-gloves/" class="btn btn-lg btn-link btn-working">Find out more</a>
+            </div>
+            <div class="col-md-6">
+              <a href="http://inch-reform.codio.io:3000/wordpress/patients-benefit-from-sharing-of-test-results/" class="btn btn-lg btn-link btn-working">Find out more</a>
+            </div>
+          </div>
+    
   </div>
 </div>
 

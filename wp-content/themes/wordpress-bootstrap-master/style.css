@@ -504,6 +504,7 @@ fieldset[disabled] .btn-shfchild.active {
   color: #09afad;
   padding: 10px 65px;
   border-radius: 5px;
+  max-width:100%;
 }
 
 .btn-working:hover {
