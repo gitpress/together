@@ -321,10 +321,11 @@ bt {
 
 .brandhead {
   padding: 40px;
-
-  /* background-image:url('/img/1.jpg'); */
-  background-color: #f2f2f2;
+  background-color: #fff;
+  background-image: url('http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/banner3.png');
   background-size:cover;
+  background-position: 0 0;
+  background-repeat-y: no-repeat;
 }
 
 .lighttext {
@@ -741,7 +742,8 @@ a.lightext {
 
 .grey-section{
   background-color: #f2f2f2;
-  padding: 25px inherit;
+  padding-bottom:25px;
+  padding-top:25px;
 }
 
 .section-header{
@@ -759,8 +761,10 @@ a.lightext {
 .white-section{
   background-color: #fff;
   margin: 15px 0;
-  padding: 25px inherit;
+  padding-bottom:25px;
+  padding-top:25px;
 }
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

@@ -8,11 +8,9 @@ Template Name: Homepage
 </div><!-- kills container -->
 
  <div class="row centered">
-  <div class="brandhead">
-    <h1 class="">Working Together</h1>
-    <p class="lead">A partnership to deliver high quality, efficient patient care for South Yorkshire, Mid Yorkshire and North Derbyshire</p>
-    <p><a class="btn btn-doncaster btn-lg" role="button" href="/about">Learn more &raquo;</a>
-    </p>
+  <div class="brandhead img-responsive">
+    <h1 class="lighttext">Working Together</h1>
+    <p class="lead lighttext">A partnership to deliver high quality, efficient patient care</p>
   </div>
 </div>
 
@@ -20,7 +18,7 @@ Template Name: Homepage
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-        <h2 class="section-header">The Working Together programme</h2>
+        <h2 class="section-header">The programme</h2>
         <hr class="brand-hr">
       </div>
     </div> 
@@ -36,8 +34,9 @@ Template Name: Homepage
                         each organisation's ability to deliver safe, sustainable and local services. 
                         Meet commissioner intentions to improve the health and wellbeing of people and
                         make collective efficiencies where the potential exists</p>
-                    <a href="http://inch-reform.codio.io:3000/wordpress/about/" class="btn btn-lg btn-link btn-working">Find out more</a>
-          </div>
+                    </div>
+          <a href="http://inch-reform.codio.io:3000/wordpress/about/" class="btn btn-lg btn-link btn-working">Further information</a>
+          
         </div>
       </div>
     </div>
@@ -161,8 +160,7 @@ financial environment.
             <img src="http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/commis.png" class="img-responsive">
           </div>
           <div class="col-md-8">
-                    <p class="lead">By combining forces on the purchase of examination gloves and agreeing to standardise the product rather than having numerous different brands at differing prices.
-</p>
+                    <p class="lead">By combining forces on the purchase of examination gloves and agreeing to standardise the product rather than having numerous different brands at differing prices.</p>
                     <a href="http://inch-reform.codio.io:3000/wordpress/working-together-delivers-400k-savings-on-gloves/" class="btn btn-lg btn-link btn-working">Find out more</a>
           </div>
         </div>
@@ -172,11 +170,10 @@ financial environment.
         <h2>Patients benefit from sharing of test results</h2>
         <div class="row">
           <div class="col-md-4">
-            <img src="http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/commis.png" class="img-responsive">
+            <img src="http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/test.jpg" class="img-responsive">
           </div>
           <div class="col-md-8">
-                    <p class="lead">Vital patient reports and tests will be able to be shared quickly and securely thanks to a unique information sharing solution.
-</p>
+                    <p class="lead">Vital patient reports and tests will be able to be shared quickly and securely thanks to a unique information sharing solution.</p>
             <br>
                     <a href="http://inch-reform.codio.io:3000/wordpress/patients-benefit-from-sharing-of-test-results/" class="btn btn-lg btn-link btn-working">Find out more</a>
           </div>
