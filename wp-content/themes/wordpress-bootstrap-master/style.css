@@ -583,6 +583,10 @@ color: #000000;
   padding: 15px 10px 10px 10px;
 }
 
+#footer li {
+  font-size: medium;
+}
+
 .benefits-link {
   color: #555 !important;
   
