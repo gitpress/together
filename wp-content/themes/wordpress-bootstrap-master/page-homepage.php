@@ -162,7 +162,7 @@ financial environment.
           </div>
           <div class="col-md-8">
                     <p class="lead">By combining forces on the purchase of examination gloves and agreeing to standardise the product rather than having numerous different brands at differing prices.</p>
-
+                <a href="http://inch-reform.codio.io:3000/wordpress/working-together-delivers-400k-savings-on-gloves/" class="btn btn-lg btn-link btn-working visible-xs visible-sm">Find out more</a>
           </div>
         </div>
       </div>
@@ -175,14 +175,15 @@ financial environment.
           </div>
           <div class="col-md-8">
                     <p class="lead">Vital patient reports and tests will be able to be shared quickly and securely thanks to a unique information sharing solution.</p>
-
+                    <a href="http://inch-reform.codio.io:3000/wordpress/patients-benefit-from-sharing-of-test-results/" class="btn btn-lg btn-link btn-working visible-xs visible-sm">Find out more</a>
+            
           </div>
         </div>
       </div>
 
     </div>
     
-          <div class="row" id="news-buttons">
+          <div class="row hidden-sm hidden-xs" id="news-buttons">
             <div class="col-md-6">
               <a href="http://inch-reform.codio.io:3000/wordpress/working-together-delivers-400k-savings-on-gloves/" class="btn btn-lg btn-link btn-working">Find out more</a>
             </div>
