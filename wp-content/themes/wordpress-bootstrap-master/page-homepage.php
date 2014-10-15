@@ -182,7 +182,7 @@ financial environment.
 
     </div>
     
-                    <div class="row">
+          <div class="row" id="news-buttons">
             <div class="col-md-6">
               <a href="http://inch-reform.codio.io:3000/wordpress/working-together-delivers-400k-savings-on-gloves/" class="btn btn-lg btn-link btn-working">Find out more</a>
             </div>
