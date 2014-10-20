@@ -138,6 +138,11 @@ a:after {
 }
 
 
+/* ******************************
+ *  NAVBAR OVERRIDES
+ *  *****************************/
+
+
 .navbar {
 	text-transform: uppercase;
 	margin-bottom: 0px;
@@ -552,7 +557,7 @@ color: #000000;
 }
 
 #sidebar1 {
-  padding-top: 45px;
+  padding-top: 10px;
 }
 
 .widget li {
@@ -776,6 +781,16 @@ a.lightext {
 
 #news-buttons{
   margin-top: 5px;
+}
+
+/* ********************************************
+ *  BOOTSTRAP OVERRIDES
+ *  ******************************************/
+
+.breadcrumb {
+  background-color: #fff;
+  margin-bottom: 0;
+  padding: 8px 0;
 }
 
 
