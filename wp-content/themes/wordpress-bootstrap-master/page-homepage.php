@@ -158,7 +158,7 @@ financial environment.
         <h2>Working Together delivers £400k savings on gloves</h2>
         <div class="row">
           <div class="col-md-4">
-            <img src="http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/commis.png" class="img-responsive">
+            <img src="http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/6766-2.jpg" class="img-responsive">
           </div>
           <div class="col-md-8">
                     <p class="lead">By combining forces on the purchase of examination gloves and agreeing to standardise the product rather than having numerous different brands at differing prices.</p>
