@@ -34,7 +34,7 @@ Template Name: Homepage
                         each organisation's ability to deliver safe, sustainable and local services. 
                         Meet commissioner intentions to improve the health and wellbeing of people and
                         make collective efficiencies where the potential exists</p>
-            <a href="http://inch-reform.codio.io:3000/wordpress/about/" class="btn btn-lg btn-link btn-working">Further information</a>
+            <a href="<?php echo get_site_url() . "/about/"; ?>" class="btn btn-lg btn-link btn-working">Further information</a>
           
                     </div>
           
@@ -104,7 +104,7 @@ Template Name: Homepage
           <div class="col-md-8">
                     <p class="lead">Sharing and Adopting Good Practice, Developing a Sustainable Service Configuration, Assuring Sustainable Service Quality and creating a cross Trust care environment through the deployment of Informatics.
                       The overall aim is to improve and sustain the quality of our clinical services whilst also providing them more efficiently and effectively and to do so together.</p>
-                    <a href="http://inch-reform.codio.io:3000/wordpress/workstreams/" class="btn btn-lg btn-link btn-working">Find out more</a>
+                    <a href="<?php echo get_site_url() . "/workstreams/"; ?>" class="btn btn-lg btn-link btn-working">Find out more</a>
           </div>
         </div>
       </div>
@@ -137,7 +137,7 @@ ensuring that services are fit for the future, meeting increased patient expecta
 and further improving patient care, whilst operating within a challenging
 financial environment.
 </p>
-                    <a href="http://inch-reform.codio.io:3000/wordpress/about/commissioner-working-together-group/" class="btn btn-lg btn-link btn-working">Further information</a>
+                    <a href="<?php echo get_site_url() . "/commissioner-working-together-group/"; ?>" class="btn btn-lg btn-link btn-working">Further information</a>
           </div>
         </div>
       </div>
@@ -162,7 +162,7 @@ financial environment.
           </div>
           <div class="col-md-8">
                     <p class="lead">By combining forces on the purchase of examination gloves and agreeing to standardise the product rather than having numerous different brands at differing prices.</p>
-                <a href="http://inch-reform.codio.io:3000/wordpress/working-together-delivers-400k-savings-on-gloves/" class="btn btn-lg btn-link btn-working visible-xs visible-sm">Find out more</a>
+                <a href="<?php echo get_site_url() . "/working-together-delivers-400k-savings-on-gloves/"; ?>" class="btn btn-lg btn-link btn-working visible-xs visible-sm">Find out more</a>
           </div>
         </div>
       </div>
@@ -175,7 +175,7 @@ financial environment.
           </div>
           <div class="col-md-8">
                     <p class="lead">Vital patient reports and tests will be able to be shared quickly and securely thanks to a unique information sharing solution.</p>
-                    <a href="http://inch-reform.codio.io:3000/wordpress/patients-benefit-from-sharing-of-test-results/" class="btn btn-lg btn-link btn-working visible-xs visible-sm">Find out more</a>
+                    <a href="<?php echo get_site_url() . "/patients-benefit-from-sharing-of-test-results/"; ?>" class="btn btn-lg btn-link btn-working visible-xs visible-sm">Find out more</a>
             
           </div>
         </div>
@@ -185,10 +185,10 @@ financial environment.
     
           <div class="row hidden-sm hidden-xs" id="news-buttons">
             <div class="col-md-6">
-              <a href="http://inch-reform.codio.io:3000/wordpress/working-together-delivers-400k-savings-on-gloves/" class="btn btn-lg btn-link btn-working">Find out more</a>
+              <a href="<?php echo get_site_url() . "/working-together-delivers-400k-savings-on-gloves/"; ?>" class="btn btn-lg btn-link btn-working">Find out more</a>
             </div>
             <div class="col-md-6">
-              <a href="http://inch-reform.codio.io:3000/wordpress/patients-benefit-from-sharing-of-test-results/" class="btn btn-lg btn-link btn-working">Find out more</a>
+              <a href="<?php echo get_site_url() . "/patients-benefit-from-sharing-of-test-results/"; ?>" class="btn btn-lg btn-link btn-working">Find out more</a>
             </div>
           </div>
     
