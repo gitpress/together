@@ -27,7 +27,7 @@ Template Name: Homepage
         <h2>A partnership involving seven hospital Trusts in South Yorkshire, Mid Yorkshire and North Derbyshire</h2>
         <div class="row">
           <div class="col-md-4">
-            <img src="http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/Rotherham4.jpg" class="img-responsive">
+            <img src="<?php echo get_site_url() . "/wp-content/uploads/2014/10/Rotherham4.jpg"; ?>" class="img-responsive">
           </div>
           <div class="col-md-8">
                     <p class="lead">Collaborating on a number of common issues, this partnership aims to strengthen 
@@ -99,7 +99,7 @@ Template Name: Homepage
         <h2>Initially the Working Together programme has been constructed around four interdependent themes</h2>
         <div class="row">
           <div class="col-md-4">
-            <img src="http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/Doncaster4.jpg" class="img-responsive">
+            <img src="<?php echo get_site_url() . "/wp-content/uploads/2014/10/Doncaster4.jpg"; ?>" class="img-responsive">
           </div>
           <div class="col-md-8">
                     <p class="lead">Sharing and Adopting Good Practice, Developing a Sustainable Service Configuration, Assuring Sustainable Service Quality and creating a cross Trust care environment through the deployment of Informatics.
@@ -125,7 +125,7 @@ Template Name: Homepage
         <h2>The Working Together partnership is working jointly with eight Clinical Commissioning Groups on a number of common key areas</h2>
         <div class="row">
           <div class="col-md-4">
-            <img src="http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/commis.png" class="img-responsive">
+            <img src="<?php echo get_site_url() . "/wp-content/uploads/2014/10/Doncaster4.jpg"; ?>" "http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/commis.png" class="img-responsive">
           </div>
           <div class="col-md-8">
                     <p class="lead">The eight Clinical Commissioning Groups (CCGs) in South Yorkshire and North

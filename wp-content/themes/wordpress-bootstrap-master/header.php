@@ -48,7 +48,7 @@
 							<span class="icon-bar"></span>
 						</button>
 
-						<a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><img src="/wordpress/wp-content/themes/wordpress-bootstrap-master/images/working.png" class="brand-logo"></a> <!-- put image in just before the close -->
+						<a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><img src="<?php echo get_site_url() . "/wp-content/uploads/2014/11/working.png"?>" class="brand-logo"></a> <!-- put image in just before the close -->
 					</div>
 
 					<div class="collapse navbar-collapse navbar-responsive-collapse">
