@@ -57,22 +57,22 @@ Template Name: Homepage
   <div class="row">
     <div class="col-md-6">
       <div class="barnsleybrand">
-        <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">Barnsley Hospital NHS Foundation Trust</a></h4>
+        <h4 class="lighttext section-nav-links"><a href="http://www.barnsleyhospital.nhs.uk/" class="lighttext">Barnsley Hospital NHS Foundation Trust</a></h4>
       </div>
       <div class="chesterfieldbrand">
-        <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">Chesterfield Royal Hospital NHS Foundation Trust</a></h4>
+        <h4 class="lighttext section-nav-links"><a href="https://www.chesterfieldroyal.nhs.uk/" class="lighttext">Chesterfield Royal Hospital NHS Foundation Trust</a></h4>
       </div>
       <div class="doncasterbrand">
-        <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">Doncaster and Bassetlaw Hospitals NHS Foundation Trust</a></h4>
+        <h4 class="lighttext section-nav-links"><a href="http://www.dbh.nhs.uk/" class="lighttext">Doncaster and Bassetlaw Hospitals NHS Foundation Trust</a></h4>
       </div>
       <div class="midyorkbrand">
-        <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">The Mid Yorkshire Hospitals NHS Trust</a></h4>
+        <h4 class="lighttext section-nav-links"><a href="http://www.midyorks.nhs.uk/main.cfm" class="lighttext">The Mid Yorkshire Hospitals NHS Trust</a></h4>
       </div>
       <div class="rotherhambrand">
-        <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">The Rotherham NHS Foundation Trust</a></h4>
+        <h4 class="lighttext section-nav-links"><a href="http://www.therotherhamft.nhs.uk/" class="lighttext">The Rotherham NHS Foundation Trust</a></h4>
       </div>
       <div class="sheffchildbrand">
-        <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">Sheffield Children’s NHS Foundation Trust</a></h4>
+        <h4 class="lighttext section-nav-links"><a href="http://www.sheffieldchildrens.nhs.uk/" class="lighttext">Sheffield Children’s NHS Foundation Trust</a></h4>
       </div>
       <div class="sthbrand">
         <h4 class="lighttext section-nav-links"><a href="#" class="lighttext">Sheffield Teaching Hospitals NHS Foundation Trust</a></h4>
@@ -125,7 +125,7 @@ Template Name: Homepage
         <h2>The Working Together partnership is working jointly with eight Clinical Commissioning Groups on a number of common key areas</h2>
         <div class="row">
           <div class="col-md-4">
-            <img src="<?php echo get_site_url() . "/wp-content/uploads/2014/10/Doncaster4.jpg"; ?>" "http://inch-reform.codio.io:3000/wordpress/wp-content/uploads/2014/10/commis.png" class="img-responsive">
+             <img src="<?php echo get_site_url() . "/wp-content/uploads/2014/11/commis.png"; ?>" class="img-responsive">
           </div>
           <div class="col-md-8">
                     <p class="lead">The eight Clinical Commissioning Groups (CCGs) in South Yorkshire and North
